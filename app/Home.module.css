@@ -1,0 +1,112 @@
+.wrapper {
+  margin-bottom: 24px;
+  display: flex;
+  gap: 24px;
+}
+
+.wrapperLeft {
+  max-width: 720px;
+  border-radius: 30px;
+  background: #f8f8f8;
+  padding: 98px 64px;
+}
+
+.title {
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 1.17;
+  letter-spacing: -0.96px;
+  margin-bottom: 32px;
+}
+
+.accent {
+  position: relative;
+  display: inline-block;
+  font-style: italic;
+  font-weight: 400;
+  z-index: 1;
+}
+
+.accent::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 5px;
+  width: 104%;
+  height: 40px;
+  border-radius: 8px;
+  background: #cbded3;
+  z-index: -1;
+}
+
+.text {
+  max-width: 471px;
+  line-height: 1.38;
+  letter-spacing: -0.32px;
+  margin-bottom: 64px;
+}
+
+.button {
+  padding: 16px 88px;
+  border-radius: 12px;
+  background: #9fbaae;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.55;
+}
+
+.wrapperRight {
+  position: relative;
+  border-radius: 30px;
+  background: #cbded3;
+  width: 568px;
+  height: 530px;
+}
+
+.imageHuman {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 106px;
+}
+
+.imageLaptop {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 0;
+}
+
+.lowerList {
+  border: тnone;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-bottom: 32px;
+  background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='30' ry='30' stroke='%239fbaae' stroke-width='3' stroke-dasharray='15%2c 15' stroke-dashoffset='0' stroke-linecap='square'/%3e%3c/svg%3e");
+}
+
+.lowerItem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.lowerNumber {
+  font-size: 28px;
+  line-height: 1.14;
+  letter-spacing: -0.56px;
+}
+
+.lowerText {
+  color: rgba(18, 20, 23, 0.7);
+  font-size: 14px;
+  line-height: 1.28;
+  letter-spacing: -0.28px;
+  max-width: 96px;
+}
