@@ -33,7 +33,7 @@ export default function Home() {
             <Image
               src="/laptop.png"
               alt="Macbook laptop"
-              width="339"
+              width="391"
               height="171"
               className={css.imageLaptop}
             />
