@@ -9,9 +9,9 @@ export default function Header() {
       <Container paddings={128}>
         <div className={css.wrapper}>
           <Link href="/" className={css.logoLink}>
-            {/* <svg className={css.logoIcon} width="" height="">
-            <use href=""></use>
-          </svg> */}
+            <svg className={css.logoIcon} width="28" height="28">
+              <use href="/icons.svg#ukraine"></use>
+            </svg>
             LearnLingo
           </Link>
           <nav className={css.nav}>
